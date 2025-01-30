@@ -49,7 +49,7 @@ public class AccountCreationPageTest extends BaseClass {
 		acountCreationPage=loginPage.createNewAccount(hashMapValue.get("Email"));
 		acountCreationPage.createAccount(
 				hashMapValue.get("Gender"),
-				hashMapValue.get("FirstName"),
+				hashMapValue.get("FirstNames"),
 				hashMapValue.get("LastName"),
 				hashMapValue.get("SetPassword"),
 				hashMapValue.get("Day"),
